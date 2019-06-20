@@ -10,7 +10,10 @@ android {
         versionCode 1
         versionName "1.0"
 
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "android.support.uploadPending.runner.AndroidJUnitRunner"
+
+    }
+    compileOptions {
 
     }
 
@@ -20,6 +23,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 
 }
 
@@ -28,6 +35,13 @@ dependencies {
 
     implementation 'com.android.support:appcompat-v7:28.0.0'
     testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'com.android.support.test:runner:1.0.2'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    androidTestImplementation 'com.android.support.uploadPending:runner:1.0.2'
+    androidTestImplementation 'com.android.support.uploadPending.espresso:espresso-core:3.0.2'
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.5.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.5.0'
+    implementation group: 'io.reactivex.rxjava2', name: 'rxandroid', version: '2.1.1'
+    implementation group: 'io.reactivex.rxjava2', name: 'rxjava', version: '2.2.8'
+    implementation 'com.github.nisrulz:screenshott:2.0.0'
 }
