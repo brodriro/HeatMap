@@ -10,7 +10,7 @@ import retrofit2.http.Part;
 
 public interface HeatMapAPI {
 
-    String BASE_URL = "http://192.168.1.87:3000/";
+    String BASE_URL = "http://192.168.1.135:3000/";
 
     @Multipart
     @POST("api/upload-screenshot")

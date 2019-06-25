@@ -1,0 +1,11 @@
+
+\squid:UselessImportCheck"4Remove this unused import 'android.graphics.Bitmap'.(¾ì8ä²­·-
+Rsquid:UselessImportCheck")Remove this unused import 'java.io.File'.(†Ğ¥Å8ä²­·-
+[squid:UselessImportCheck"-Remove this unused import 'android.os.Build'.(ãÇ¤Úıÿÿÿÿ8ä²­·-
+lsquid:UselessImportCheck">Remove this unused import 'android.content.pm.PackageManager'.(€®¥õÿÿÿÿÿ8ä²­·-
+psquid:UselessImportCheck"BRemove this unused import 'android.support.v4.app.ActivityCompat'.(Äüşÿÿÿÿ8ä²­·-
+[squid:UselessImportCheck"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ8ä²­·-
+Esquid:S1068"'Remove this unused "TAG" private field.(‘‚™´8ä²­·-
+msquid:UselessImportCheck
+"CRemove this unused import 'github.nisrulz.screenshott.ScreenShott'.(ëûa8ä²­·-
+[squid:UselessImportCheck"2Remove this unused import 'android.os.StrictMode'.(Ä§Ì„8õŞ²­·-
